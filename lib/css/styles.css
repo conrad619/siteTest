@@ -1,0 +1,156 @@
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.font-h1{
+	font-family: 'Roboto', sans-serif;
+}
+.font-h2{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.font-3{
+	font-family: 'Pontano Sans', sans-serif;
+}
+.font-contact{
+	font-size: 20px;
+}
+.font-contact2{
+	font-size: 13px;
+}
+.brand-title{
+	font-size: 25px;
+}
+a.brand-title:hover{
+	color:#1d1d1d !important;
+}
+.text-theme{
+	color:#0066ff !important;
+}
+.bg-theme{
+	background:#0066ff;
+}
+.bg-theme-secondary{
+	background:#f6f6f6;
+}
+.nav-text{
+	font-size:15px;
+}
+.nav-text a{
+	color:#1d1d1d;
+}
+.nav-text a:hover{
+	color:#0066ff
+}
+.content p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color:#7a7a7a;
+}
+.content h2{
+	font-size: 25px;
+	font-weight: bold;
+	color: #54595f;
+	margin-bottom: 1em;
+}
+.content ul{
+	padding-left:1rem;
+}
+.content ul li{
+	color:#54595f;
+}
+.content h6{
+	color:#33cccc;
+	font-weight:700;
+}
+.location p{
+	margin-bottom: 0;
+}
+.map iframe{
+	height: 700px;
+	width: 100%;
+}
+.footer{
+	background:url('../images/footer-bg.jpg');
+}
+.footer, .footer .content p, .footer a, .footer .content h6{
+	color:#BBB;
+}
+.footer .content h6{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight:400;
+	font-size:22px;
+}
+.footer ul{
+	padding-left: 0;
+}
+.footer ul li{
+	list-style: none;
+	margin-bottom: .5em;
+}
+.to-top{
+	position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: #111;
+    height: 60px;
+    width: 40px;
+    text-align: center;
+    color: #FFF;
+    line-height: 60px;
+    z-index: 99;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.tab-drop{
+	position: relative;
+}
+.navbar ul li:hover > .drop{
+	display:block;
+}
+.drop.right{
+	top:25%;
+	left:100%;
+}
+.drop{
+	display:none;
+	min-width: 200px;
+	border-top:2px solid #0066ff;
+	padding-left:0em;
+	position: absolute;
+	top:100%;
+	background:#fff;
+	box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+	z-index: 1000;
+}
+.tab-drop ul li{
+	list-style: none;
+	padding:.8em;
+}
+
+.tab-drop ul li:hover{
+	background:#0066ff;
+	box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+}
+.tab-drop ul li:hover > a{
+	background:#0066ff;
+	color:#fff;
+	text-decoration: none;
+}
+.nav-item.active{
+	background:#f6f6f6;
+}
+.nav-item{
+	margin-left:1em;
+}
+.nav-item .fa.fa-angle-right {
+	float:right;
+}
+@media (min-width: 992px){
+	.col-lg-20p{
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 0 20%;
+	    flex: 0 0 20%;
+	    max-width: 20%;
+	}
+}
